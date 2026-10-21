@@ -36,7 +36,7 @@ process SINGLE_SYNTH_READS {
         --errhmm ${params.pbsim_model} \
         --accuracy-mean 0.98;
 
-    cat ${sample_id}_*.fq.gz > ${sample_id}.pbsim.fq.gz
+    cat ${sample_id}_*.fq.gz >> ${sample_id}.pbsim.fq.gz
     """
 
 }
