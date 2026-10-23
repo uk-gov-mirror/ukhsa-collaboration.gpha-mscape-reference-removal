@@ -13,7 +13,7 @@ process SINGLE_SYNTH_READS {
     */
 
     container 'community.wave.seqera.io/library/pbsim3:3.0.5--86541aa3eccd4c3c'
-    label 'process_low'
+    label 'process_medium'
     maxRetries 3
 
     input:
@@ -55,7 +55,7 @@ process PAIRED_SYNTH_READS {
     */
 
     container 'community.wave.seqera.io/library/dwgsim:1.1.14--b4033839f1e4b148'
-    label 'process_low'
+    label 'process_medium'
     maxRetries 3
 
     input:
